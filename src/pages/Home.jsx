@@ -8,10 +8,12 @@ function Home() {
       {/*  className="bg-[#fffaf1]" */}
       <div className=" mx-auto h-[100vh] pl-5 flex flex-col justify-around">
         <div className="flex items-center justify-between mt-16">
-          <h2 className="text-7xl text-[#003B54] font-bold">Utopia Farming</h2>
+          <h2 className="text-[4.5rem] text-[#003B54] font-bold">
+            Utopia Farming
+          </h2>
           <img src={imageB} alt="" className=" rounded-b-xl w-[44rem]" />
         </div>
-        <div className="flex justify-between space-x-20 py-12 mr-32 w-1300:mr-20">
+        <div className="flex justify-between space-x-20 py-8 mr-32 w-1300:mr-20">
           <img src={imageA} alt="" className="bottom-0 w-[600px]  left-0" />
           <div className="card leading-9 w-1100:text-base w-1300:text-md w-1300:p-10 bg-[#dcfce7] h-fit w-[30rem] rounded-xl p-12  text-[#185454] text-lg right-10">
             Move over to{"  "}
