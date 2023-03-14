@@ -110,7 +110,10 @@ function Community() {
                 {msg.img_url && (
                   <img className="w-96 h-96" src={msg.img_url} alt="No image" />
                 )}
-                <div className="right-0 bottom-0 text-xs">{msg.created_at}</div>
+                <div className="right-0 bottom-0 text-xs flex space-x-3">
+                  <span>{msg.created_at.substring(0, 10)}</span>
+                  <span>{msg.created_at.substring(11, 19)}</span>
+                </div>
               </div>
               <div className="w-fit flex items-center hidden">
                 <svg
